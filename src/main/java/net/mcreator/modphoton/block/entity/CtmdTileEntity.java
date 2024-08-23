@@ -44,7 +44,7 @@ public class CtmdTileEntity extends RandomizableContainerBlockEntity implements 
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public CtmdTileEntity(BlockPos pos, BlockState state) {
-		super(ModphotonModBlockEntities.CTMD.get(), pos, state);
+		super(ModphotonModBlockEntities.ARCANE_TABLE.get(), pos, state);
 	}
 
 	private PlayState predicate(AnimationState event) {
@@ -128,7 +128,7 @@ public class CtmdTileEntity extends RandomizableContainerBlockEntity implements 
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("ctmd");
+		return Component.literal("arcane_table");
 	}
 
 	@Override
@@ -143,7 +143,7 @@ public class CtmdTileEntity extends RandomizableContainerBlockEntity implements 
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Ctmd");
+		return Component.literal("Arcane Table");
 	}
 
 	@Override

@@ -15,7 +15,7 @@ import net.mcreator.modphoton.ModphotonMod;
 
 public class ModphotonModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ModphotonMod.MODID);
-	public static final RegistryObject<Item> CTMD = REGISTRY.register(ModphotonModBlocks.CTMD.getId().getPath(), () -> new CtmdDisplayItem(ModphotonModBlocks.CTMD.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ARCANE_TABLE = REGISTRY.register(ModphotonModBlocks.ARCANE_TABLE.getId().getPath(), () -> new CtmdDisplayItem(ModphotonModBlocks.ARCANE_TABLE.get(), new Item.Properties()));
 	// Start of user code block custom items
 	// End of user code block custom items
 }

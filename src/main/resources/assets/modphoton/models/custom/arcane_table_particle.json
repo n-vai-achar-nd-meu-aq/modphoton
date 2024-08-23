@@ -1,0 +1,7 @@
+
+{
+  "parent": "modphoton:displaysettings/arcane_table.item",
+  "textures": {
+    "particle": "modphoton:block/particle_break"
+  }
+}

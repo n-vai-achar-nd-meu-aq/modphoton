@@ -2,26 +2,35 @@
   "_fv": 66,
   "_type": "animatedblock",
   "definition": {
-    "texture": "ctmd",
+    "texture": "arcane_table",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 0,
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "particle_break",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
+      {
+        "mx": 16.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 32.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
       {
         "mx": 0.0,
         "my": 0.0,
@@ -30,9 +39,18 @@
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": -16.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
       }
     ],
-    "name": "Ctmd",
+    "name": "Arcane Table",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,7 +60,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:Mod"
       }
     ],
     "destroyTool": "Not specified",
@@ -57,7 +75,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -78,12 +96,12 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 1,
+    "animationCount": 2.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -121,6 +139,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "CtmdOnBlockRightClicked"
+    },
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -132,8 +153,8 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "ctmd.geo.json",
-    "displaySettings": "ctmd.item.json",
+    "normal": "arcane_table.geo.json",
+    "displaySettings": "arcane_table.item.json",
     "vanillaToolTier": "NONE",
     "blockstateList": []
   }

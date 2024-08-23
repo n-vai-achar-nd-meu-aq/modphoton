@@ -5,20 +5,60 @@
       "type": "animatedblock",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ctmd",
+      "registry_name": "arcane_table",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/modphoton/block/display/CtmdDisplayItem.java",
+          "src/main/resources/assets/modphoton/models/item/arcane_table.json",
           "src/main/java/net/mcreator/modphoton/block/renderer/CtmdTileRenderer.java",
-          "src/main/resources/assets/modphoton/blockstates/ctmd.json",
+          "src/main/resources/assets/modphoton/blockstates/arcane_table.json",
+          "src/main/resources/assets/modphoton/models/custom/arcane_table_particle.json",
           "src/main/java/net/mcreator/modphoton/block/model/CtmdDisplayModel.java",
+          "src/main/java/net/mcreator/modphoton/block/renderer/CtmdDisplayItemRenderer.java",
           "src/main/java/net/mcreator/modphoton/block/CtmdBlock.java",
           "src/main/java/net/mcreator/modphoton/block/model/CtmdBlockModel.java",
-          "src/main/java/net/mcreator/modphoton/block/entity/CtmdTileEntity.java",
-          "src/main/java/net/mcreator/modphoton/block/renderer/CtmdDisplayItemRenderer.java",
-          "src/main/resources/assets/modphoton/models/item/ctmd.json",
-          "src/main/resources/assets/modphoton/models/custom/ctmd_particle.json"
+          "src/main/java/net/mcreator/modphoton/block/entity/CtmdTileEntity.java"
         ]
+      }
+    },
+    {
+      "name": "CtmdOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ctmd_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modphoton/procedures/CtmdOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod",
+      "metadata": {
+        "files": []
       }
     }
   ],
@@ -28,7 +68,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.modphoton.ctmd": "Ctmd"
+      "item_group.modphoton.mod": "Mod",
+      "block.modphoton.arcane_table": "Arcane Table"
     }
   },
   "foldersRoot": {

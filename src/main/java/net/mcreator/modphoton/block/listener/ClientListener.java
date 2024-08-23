@@ -15,6 +15,6 @@ public class ClientListener {
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerBlockEntityRenderer(ModphotonModBlockEntities.CTMD.get(), context -> new CtmdTileRenderer());
+		event.registerBlockEntityRenderer(ModphotonModBlockEntities.ARCANE_TABLE.get(), context -> new CtmdTileRenderer());
 	}
 }
