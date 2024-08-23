@@ -34,7 +34,7 @@
     {
       "name": "Arcanetableanimation",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arcanetableanimation",
       "metadata": {
