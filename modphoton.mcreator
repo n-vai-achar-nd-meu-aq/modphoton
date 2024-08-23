@@ -65,7 +65,7 @@
       "name": "Anelagua",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "anelagua",
       "metadata": {
         "files": [
