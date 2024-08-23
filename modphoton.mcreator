@@ -60,6 +60,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Anelagua",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anelagua",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modphoton/item/AnelaguaItem.java",
+          "src/main/resources/assets/modphoton/models/item/anelagua.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
