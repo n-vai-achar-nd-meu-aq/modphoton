@@ -19,6 +19,7 @@ public class ModphotonModTabs {
 	public static final RegistryObject<CreativeModeTab> MOD = REGISTRY.register("mod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.modphoton.mod")).icon(() -> new ItemStack(ModphotonModBlocks.ARCANE_TABLE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ModphotonModBlocks.ARCANE_TABLE.get().asItem());
+				tabData.accept(ModphotonModItems.ANELAGUA.get());
 			})
 
 					.build());

@@ -9,15 +9,15 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/modphoton/block/display/CtmdDisplayItem.java",
-          "src/main/resources/assets/modphoton/models/item/arcane_table.json",
           "src/main/java/net/mcreator/modphoton/block/renderer/CtmdTileRenderer.java",
-          "src/main/resources/assets/modphoton/blockstates/arcane_table.json",
-          "src/main/resources/assets/modphoton/models/custom/arcane_table_particle.json",
+          "src/main/resources/assets/modphoton/models/item/arcane_table.json",
           "src/main/java/net/mcreator/modphoton/block/model/CtmdDisplayModel.java",
-          "src/main/java/net/mcreator/modphoton/block/renderer/CtmdDisplayItemRenderer.java",
+          "src/main/resources/assets/modphoton/models/custom/arcane_table_particle.json",
           "src/main/java/net/mcreator/modphoton/block/CtmdBlock.java",
           "src/main/java/net/mcreator/modphoton/block/model/CtmdBlockModel.java",
-          "src/main/java/net/mcreator/modphoton/block/entity/CtmdTileEntity.java"
+          "src/main/java/net/mcreator/modphoton/block/entity/CtmdTileEntity.java",
+          "src/main/java/net/mcreator/modphoton/block/renderer/CtmdDisplayItemRenderer.java",
+          "src/main/resources/assets/modphoton/blockstates/arcane_table.json"
         ]
       }
     },
@@ -60,6 +60,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Anelagua",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anelagua",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modphoton/item/AnelaguaItem.java",
+          "src/main/resources/assets/modphoton/models/item/anelagua.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -69,7 +82,8 @@
   "language_map": {
     "en_us": {
       "item_group.modphoton.mod": "Mod",
-      "block.modphoton.arcane_table": "Arcane Table"
+      "block.modphoton.arcane_table": "Arcane Table",
+      "item.modphoton.anelagua": "Anel Água"
     }
   },
   "foldersRoot": {
@@ -88,6 +102,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "use_compiled_mods",
       "geckolib"
     ],
     "currentGenerator": "forge-1.20.1",

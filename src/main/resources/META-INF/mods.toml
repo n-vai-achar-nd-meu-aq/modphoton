@@ -22,6 +22,12 @@ authors="OnFek, MCreator"
 
 
 [[dependencies.modphoton]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.modphoton]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"
