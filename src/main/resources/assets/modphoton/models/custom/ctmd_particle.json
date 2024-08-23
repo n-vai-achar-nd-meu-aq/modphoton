@@ -1,0 +1,7 @@
+
+{
+  "parent": "modphoton:displaysettings/ctmd.item",
+  "textures": {
+    "particle": "modphoton:block/ctmd"
+  }
+}
