@@ -52,7 +52,9 @@
     ],
     "name": "Arcane Table",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "A table to manage all your magic"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,
@@ -77,7 +79,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 0,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -96,7 +98,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 2.0,
+    "animationCount": 3.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -139,8 +141,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CtmdOnBlockRightClicked"
+    "onTickUpdate": {
+      "name": "Arcanetableanimation"
     },
     "restrictionBiomes": [],
     "blocksToReplace": [

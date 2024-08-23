@@ -22,14 +22,24 @@
       }
     },
     {
-      "name": "CtmdOnBlockRightClicked",
+      "name": "Mod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Arcanetableanimation",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ctmd_on_block_right_clicked",
+      "registry_name": "arcanetableanimation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/modphoton/procedures/CtmdOnBlockRightClickedProcedure.java"
+          "src/main/java/net/mcreator/modphoton/procedures/ArcanetableanimationProcedure.java"
         ],
         "dependencies": [
           {
@@ -49,16 +59,6 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "Mod",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mod",
-      "metadata": {
-        "files": []
       }
     }
   ],
